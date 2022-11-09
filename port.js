@@ -1,3 +1,14 @@
+const hamburger = document.querySelector('.hmaburger');
+
+hamburger.addEventListener('click', function() {
+  this.classList.toggle('.menu');
+});
+
+$("span").click(function() {
+  $(".menu").toggle();
+});
+
+
 let mybutton = document.getElementById("myBtn");
 
 window.onscroll = function() {scrollFunction()};
@@ -50,3 +61,4 @@ $('a[href*="#"]')
       }
     }
   });
+
