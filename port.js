@@ -1,13 +1,12 @@
-const hamburger = document.querySelector('.hmaburger');
-
-hamburger.addEventListener('click', function() {
-  this.classList.toggle('.menu');
-});
-
-$("span").click(function() {
-  $(".menu").toggle();
-});
-
+function myFunction() {
+  var x = document.getElementsByClassName('mobile-nav');
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  }
+  else {
+    x.style.display = "none";
+  }
+}
 
 let mybutton = document.getElementById("myBtn");
 

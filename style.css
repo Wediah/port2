@@ -1,6 +1,7 @@
 body {
     background-color: rgb(3, 3, 35);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
 }
 
 nav {
@@ -69,6 +70,48 @@ nav {
     right: 0;
     z-index: 99;
     border-bottom: 0.2px solid #5DE6DE;
+}
+
+.mobile-nav {
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 98;
+    background-color: rgb(3, 3, 35);
+    padding-top: 120px;
+    transition: 0.4s;
+}
+
+.mobile-nav button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+
+.mobile-nav a {
+    display: block;
+    margin: 0 auto 16px;
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    padding: 12px 16px;
+    background-color: rgb(4, 4, 69);
+}
+
+.mobile-nav button:hover {
+    color:#5DE6DE;
+}
+
+.menu-burger {
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
 
 label.hamburger {

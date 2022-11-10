@@ -12,23 +12,35 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-    <nav>
-        <h2 class="logo">Wediah Emmanuel</h2>
-        <ul class="menu" id="menub">
-            <li><a href="#portifolio"><button>Portifolio</button></a></li>
-            <li><a href="#about"><button >About</button></a></li>
-            <li><a href="#contact"><button class="tact">Contact</button></a></li>
-            <li><a href="./resume/WEDIAH'S RESUME.docx" class="is-active" download><button class="resume"> Download my resume</button></a></li>
-        </ul>
+    <header>
+        <nav>
+            <h2 class="logo">Wediah Emmanuel</h2>
+            <ul class="menu" id="menub">
+                <li><a href="#portifolio"><button>Portifolio</button></a></li>
+                <li><a href="#about"><button >About</button></a></li>
+                <li><a href="#contact"><button class="tact">Contact</button></a></li>
+                <li><a href="./resume/WEDIAH'S RESUME.docx" class="is-active" download><button class="resume"> Download my resume</button></a></li>
+            </ul>
 
-        <div class="burger">
-            <input type="checkbox" id="hamburger">
-            <label for="hamburger" class="hamburger">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </label>
-        </div>
+            <div class="burger">
+                <button class="menu-burger" toggle="myFunction()" >
+                    <input type="checkbox" id="hamburger">
+                    <label for="hamburger" class="hamburger">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </label>
+                </button>
+                
+            </div>
+        </nav>
+    </header>
+
+    <nav class="mobile-nav">
+        <a href="#portifolio"><button>Portifolio</button></a>
+        <a href="#about"><button >About</button></a>
+        <a href="#contact"><button class="tact">Contact</button></a>
+        <a href="./resume/WEDIAH'S RESUME.docx" class="is-active" download><button class="resume"> Download my resume</button></a>
     </nav>
 
     <div class="ab">
@@ -42,7 +54,7 @@
                 <span>Front-end</span>
                 and a <span>Wordpress Developer.</span>
             </h1>
-            <h4>I'm Emmanuel Wediah, a designer, developer working and living in Accra, Ghana. Passionate about helping brands bring imaginations to life.
+            <h4>I'm Emmanuel Wediah, a designer and a developer working and living in Accra, Ghana. Passionate about helping brands bring imaginations to life.
             </h4> 
             <h5>
                 there's more, scroll up.
