@@ -410,7 +410,7 @@ h6 {
 }
 
 .scroll {
-    position: static;
+    position:static;
     color:rgb(11, 194, 240);
     float: right;
     width:10%;
@@ -418,5 +418,6 @@ h6 {
     background-color: transparent;
     border: none;
     outline: none;
-    margin-top: -10%;
+    margin-top: -7%;
+    margin-left: 80%;
 }
