@@ -52,7 +52,7 @@ nav {
     top: 0;
     left: 100%;
     width: 100%;
-    min-height: 100vh;
+    min-height: 30vh;
     display: block;
     z-index: 98;
     background-color: rgb(3, 3, 35);
