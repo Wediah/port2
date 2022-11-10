@@ -436,9 +436,13 @@ h6 {
     }
 
     .ba {
-        font-size: 25px;
+        font-size: 32px;
         height: 37.5%;
-        margin-top: 25%;
+        margin-top: 30%;
+    }
+
+    h4 {
+        font-size: 12px;
     }
 
     .pintro {
