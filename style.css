@@ -189,7 +189,8 @@ span {
     grid-gap: 20px;
     place-items: center;
     padding-left: 10%;
-    padding-right: 10%;  
+    padding-right: 10%;
+    margin-right: 10% ;  
 }
 
 @media (max-width: 800px) {
