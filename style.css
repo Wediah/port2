@@ -117,6 +117,7 @@ li button {
     font-weight: bold;
     border-radius: 10px;
     transition: transform .75s;
+    margin-top: 5px;
     z-index: 2;
 }
 
