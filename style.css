@@ -117,6 +117,7 @@ li button {
     font-weight: bold;
     border-radius: 10px;
     transition: transform .75s;
+    z-index: 2;
 }
 
 .resume:hover {
@@ -220,6 +221,7 @@ span {
     margin-right: 10% ;  
 }
 
+
 @media (max-width: 800px) {
     .myself {
       flex-direction: column;
@@ -227,6 +229,10 @@ span {
 
     .scroll {
         display: none;
+    }
+
+    footer ul li {
+        padding: 5px;
     }
   }
 
