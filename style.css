@@ -158,7 +158,7 @@ nav {
         display: inline-block;
     }
 
-    
+
 
 }
 
@@ -245,7 +245,7 @@ span {
 }
 
 .xu:hover {
-    transform: scale(1.10);
+    transform: scale(0.90);
     border-color: #B58ECC;
     
 }
@@ -422,4 +422,70 @@ h6 {
     outline: none;
     margin-top: -7%;
     margin-left: 80%;
+}
+
+@media screen and (max-width: 1366px) {
+    .myself {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 800px) {
+    .logo {
+        font-size: 14px;
+    }
+
+    .ba {
+        font-size: 25px;
+        height: 37.5%;
+        margin-top: 25%;
+    }
+
+    .pintro {
+        font-size: 15px;
+    }
+
+    .content section {
+        font-size: 15px;
+        padding-left: 8%;
+    }
+
+    .content h4 {
+        font-size: 8px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .ux {
+        font-size: 10px;
+    }
+
+    .des {
+        font-size: 25px;
+    }
+
+    .tech {
+        font-size: 12.5px;
+    }
+
+    .touch {
+        font-size: 20px;
+    
+    }
+
+    .cnn {
+        font-size: 12.5px;
+    }
+
+    .bbb {
+        font-size: 10px;
+        width: 90px;
+        height: 30px;
+    }
+
+    footer button {
+        font-size: 15px;
+    }
 }
