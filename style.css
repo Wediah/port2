@@ -432,6 +432,10 @@ h6 {
 }
 
 @media (max-width: 800px) {
+    .body {
+        overflow-x: hidden;
+    }
+
     .logo {
         font-size: 14px;
     }
@@ -439,7 +443,7 @@ h6 {
     .ba {
         font-size: 32px;
         height: 37.5%;
-        margin-top: 30%;
+        margin-top: 36%;
     }
 
     h4 {
