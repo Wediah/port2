@@ -154,6 +154,10 @@ nav {
     .hamburger {
         display: none;
     }
+
+    .body {
+        overflow-x: hidden;
+    }
         
     .menu {
         display: inline-block;
